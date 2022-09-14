@@ -13,6 +13,10 @@ final class ModelData: ObservableObject {
     var hikes: [Hike] = load("hikeData.json")
     // Hike data would never be modified after initially loading it, so no need to mark it with `@Published`.
     
+    var features: [Landmark] {
+        landmarks.filter { $0.isFeatured }
+    }
+    
     var categories: [String: [Landmark]] {
         Dictionary(
             grouping: landmarks,
