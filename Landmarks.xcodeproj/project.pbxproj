@@ -76,6 +76,7 @@
 		BDC67CDA28D4F2F000355FAF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E978828D1DCCD00064CD4 /* Profile.swift */; };
 		BDC67CDB28D4F2F000355FAF /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D16D628CF76FD00CDC7B1 /* LandmarkList.swift */; };
 		BDC67CDC28D4F2F000355FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5004C928CCB8C700D2B63D /* Assets.xcassets */; };
+		BDC67CDE28D4F5B100355FAF /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC67CDD28D4F5B100355FAF /* LandmarkDetail.swift */; };
 		BDE1B30128D0D42100F11C83 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1B30028D0D42100F11C83 /* Badge.swift */; };
 		BDE1B30428D0EEF500F11C83 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1B30328D0EEF500F11C83 /* Hike.swift */; };
 		BDE6B7E828CFD31F0068461C /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE6B7E728CFD31F0068461C /* RotatedBadgeSymbol.swift */; };
@@ -155,6 +156,7 @@
 		BDC67CC728D4EB8B00355FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC67CCA28D4EB8B00355FAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDC67CCC28D4EB8B00355FAF /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		BDC67CDD28D4F5B100355FAF /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		BDE1B30028D0D42100F11C83 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		BDE1B30328D0EEF500F11C83 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		BDE6B7E728CFD31F0068461C /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 				BDC67CC728D4EB8B00355FAF /* Assets.xcassets */,
 				BDC67CCC28D4EB8B00355FAF /* MacLandmarks.entitlements */,
 				BDC67CC928D4EB8B00355FAF /* Preview Content */,
+				BDC67CDD28D4F5B100355FAF /* LandmarkDetail.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -609,6 +612,7 @@
 				BDC67CDB28D4F2F000355FAF /* LandmarkList.swift in Sources */,
 				BDC67CDA28D4F2F000355FAF /* Profile.swift in Sources */,
 				BDC67CD828D4F2F000355FAF /* MapView.swift in Sources */,
+				BDC67CDE28D4F5B100355FAF /* LandmarkDetail.swift in Sources */,
 				BDC67CC628D4EB8800355FAF /* ContentView.swift in Sources */,
 				BDC67CD928D4F2F000355FAF /* FavoriteButton.swift in Sources */,
 				BDC67CD028D4F2F000355FAF /* Landmark.swift in Sources */,
